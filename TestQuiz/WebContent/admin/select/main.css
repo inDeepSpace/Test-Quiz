@@ -1,0 +1,178 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    clear: both;
+    background:url(bg1.jpg);
+    background-attachment:fixed;
+    background-reparat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    height: 900px;
+}
+
+
+.head
+{
+    height: 70px;
+    
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1)) ; 
+    border-bottom-right-radius: 70px;
+}
+
+.head ul
+{
+    margin:0 70px auto auto;
+    List-style:none;
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.head ul li
+{
+    height: 70px;
+    display:inline-block;
+    Line-height:70px;
+    float:right;
+    padding:0 15px;
+    margin: 0;
+}
+
+.head ul li a
+{
+    Line-height:50px;
+    text-decoration:none;
+    display:inline-block;
+    height:50px;
+    color:#eee;
+}
+
+.head ul li:hover
+{
+
+    background:rgba(0,0,0,0.3);
+}
+
+
+.head ul li.logo
+{
+    float:left;
+    color:white;
+    font-weight: 700;
+    font-size: 55px;
+    padding-left: 25px;
+    font-family: "华文仿宋";
+    width: 200px;
+}
+
+.dark-matter {
+margin-top:50px;
+margin-left: 50px;
+margin-right: auto;
+width: 500px;
+height: 700px;
+background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#824304), to(#4A433C));
+padding: 20px 30px 20px 30px;
+font: 10px "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #D3D3D3;
+text-shadow: 1px 1px 1px #444;
+
+border-bottom:30px solid #4F2902;
+border-left:40px solid #2C1601 ;
+border-top: 3px solid #4F2902;
+
+border-bottom-left-radius: 40px;
+border-top-left-radius: 40px;
+border-bottom-right-radius: 30px;
+border-top-right-radius: 20px;
+
+}
+.dark-matter h1 {
+padding: 0px 0px 10px 40px;
+display: block;
+border-bottom: 1px solid #333;
+margin: -10px -30px 30px -30px;
+}
+
+.dark-matter label {
+display: block;
+margin: 0px 0px 5px;
+}
+.dark-matter label>span {
+float: left;
+width: 20%;
+text-align: right;
+padding-right: 10px;
+margin-top: 10px;
+font-weight: bold;
+}
+.dark-matter input[type="text"],  .dark-matter textarea {
+border: none;
+color: #fff;
+height: 25px;
+line-height:15px;
+margin-bottom: 16px;
+margin-right: 6px;
+margin-top: 2px;
+outline: 0 none;
+padding: 5px 0px 5px 5px;
+width: 70%;
+ border-radius: 5px ;
+ -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5);
+background: rgba(0, 0, 0, 0.2);
+}
+
+.dark-matter textarea{
+height:100px;
+padding: 5px 0px 0px 5px;
+width: 70%;
+}
+
+.dark-matter .button {
+    margin-top:500px;
+ background: #2C1601;
+border: none;
+padding: 10px 25px 10px 25px;
+color: #585858;
+ border-radius: 4px;
+ width: 70%;
+}
+
+.dark-matter .button:hover {
+color: #333;
+background-color: #FFCC02;
+
+}
+
+.pen
+{
+    height: 600px;
+    width: 50px;
+   background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#824304), to(#4A433C));
+   float: left;
+   margin-top: -700px;
+   margin-left:800px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+    border-top-left-radius: 40px;
+   border-top-right-radius: 40px;
+   border: 3px solid #333;
+   border-bottom: none;
+   transform: rotate(10deg);
+}
+
+
+
+.jian
+{
+    height: 100px;
+    width: 70px;
+    background:#4A433C;
+    margin-top: 590px;
+    transform: rotate(45deg);
+    margin-left: -18px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius:100px;
+}
+

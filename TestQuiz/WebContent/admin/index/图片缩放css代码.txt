@@ -1,0 +1,39 @@
+.test2{background:#000;}
+.test2 figcaption{
+   width:100%;
+   height:100%; 
+}
+.test2 figcaption div{
+    border:2px solid #FFF;
+    width:80%;
+    height:80%;
+    position:absolute;
+    top:10%;
+    left:10%;
+    transform:scale(1.2,1.2);
+    opacity:0;
+}
+.test2:hover figcaption div{
+    transform:scale(1,1);
+    opacity:1;
+}
+
+.test2 figcaption h2{
+  margin-top:15%;
+  margin-left:15%;
+  transform:scale(1.2,1.2);
+  opacity:0;
+}
+.test2 figcaption p{
+  margin-top:5px;
+  margin-left:15%;
+  transform:scale(1.2,1.2);
+  opacity:0;
+}
+
+test2:hover img{
+   transform:scale(1.2,1.2);
+   opacity:0.5;
+}
+.test2:hover figcaption h2{transform:scale(1,1);opacity:1;}
+.test2:hover figcaption p{transform:scale(1,1);opacity:1;}

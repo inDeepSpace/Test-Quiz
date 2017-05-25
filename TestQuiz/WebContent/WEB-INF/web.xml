@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>TextQuiz</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+     <servlet>
+  <servlet-name>Add</servlet-name>
+  <servlet-class>cn.com.wnkd.Quizadd</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Add</servlet-name>
+  <url-pattern>/quizadd</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Update</servlet-name>
+  <servlet-class>cn.com.wnkd.QuizUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Update</servlet-name>
+  <url-pattern>/quizupdate</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  <servlet-name>Delete</servlet-name>
+  <servlet-class>cn.com.wnkd.QuizDele</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Delete</servlet-name>
+  <url-pattern>/quizdelete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Login</servlet-name>
+  <servlet-class>cn.com.wnkd.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Login</servlet-name>
+  <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>Select</servlet-name>
+  <servlet-class>cn.com.wnkd.QuizSelect</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Select</servlet-name>
+  <url-pattern>/quizselect</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>select1</servlet-name>
+  <servlet-class>cn.com.wnkd.SelectAll</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>select1</servlet-name>
+  <url-pattern>/select</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>test</servlet-name>
+  <servlet-class>cn.com.wnkd.Test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>test</servlet-name>
+  <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  
+  <resource-ref>
+       <res-ref-name>justsql</res-ref-name>
+       <res-type>javax.sql.DataSource</res-type>
+       <res-auth>Container</res-auth>
+  </resource-ref>
+</web-app>

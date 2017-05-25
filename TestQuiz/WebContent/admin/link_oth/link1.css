@@ -1,0 +1,283 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+	background:url(bg1.jpg);
+	background-attachment:fixed;
+	background-reparat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+
+
+.head
+{
+    height: 70px;
+    background: #333; 
+}
+
+.head ul
+{
+    margin:0 40px auto auto;
+    List-style:none;
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.head ul li
+{
+    height: 70px;
+    display:inline-block;
+    Line-height:70px;
+    float:right;
+    padding:0 15px;
+    margin: 0;
+}
+
+.head ul li a:hover
+{
+    color: red;
+}
+
+.head ul li a
+{
+    Line-height:50px;
+    text-decoration:none;
+    display:inline-block;
+    height:50px;
+    color:#eee;
+}
+
+
+.head ul li.logo
+{
+    float:left;
+    color:white;
+    font-weight: 700;
+    font-size: 55px;
+    padding-left: 25px;
+    font-family: "华文仿宋";
+    width: 200px;
+}
+
+.c1
+{
+    width: 60px;
+    height: 60px;
+    border:2px solid #eee;
+    border-radius: 40px;
+    margin:0px auto 0 0;
+    background: gray;
+}
+
+.c1:hover
+{
+    background:rgba(0,0,0,0.3);
+}
+
+.c2
+{
+    width: 60px;
+    height: 60px;
+    border-top:2px solid #eee;
+    margin: -30px auto 0 2px;
+}
+
+
+.c1 .cx1
+{
+    width: 30px;
+    height: 30px;
+    border-bottom:2px solid #eee;
+    border-radius: 20px;
+    margin: 20px auto 0 auto;
+}
+
+.c2 .cx2
+{
+    width: 30px;
+    height: 30px;
+    border-top:1px solid #eee;
+    margin: 5px auto 0 15px;
+}
+
+.head .wlogo
+{
+    float:left;
+    color:white;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "华文仿宋";
+}
+
+.lan
+{
+    width: 700px;
+    height: 50px;
+    background: rgba(0,0,0,0.2);
+    margin:0 auto;
+    border-left: 300px solid rgba(0,0,0,0.3);
+    border-right: 300px solid rgba(0,0,0,0.3);
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    margin-top: 20px;
+}
+
+.lan ul
+{
+    margin-left:40px;
+    List-style:none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.lan ul li
+{
+    height: 50px;
+    display:inline-block;
+    Line-height:50px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.lan ul li a
+{
+    Line-height:50px;
+    text-decoration:none;
+    display:inline-block;
+    color:#fff;
+}
+
+.lan ul .l1:hover
+
+{
+     background: rgb(255,0,0);
+}
+
+.lan ul .l2:hover
+
+{
+     background: rgb(255,165,0);
+}
+
+.lan ul .l3:hover
+
+{
+     background: rgb(255,255,0);
+}
+
+.lan ul .l4:hover
+
+{
+     background: rgb(0,255,0);
+}
+
+.lan ul .l5:hover
+
+{
+     background: rgb(0,127,255);
+}
+
+.lan ul .l6:hover
+
+{
+     background: rgb(0,0,255);
+}
+
+
+.context
+{
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+     border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.context .t-title
+{
+    border-top-left-radius: 70px;
+    border-left:50px solid #333;
+    border-top-right-radius: 70px;
+    border-right:50px solid #333;
+    width: 900px;
+    height: 70px;
+   background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1)) ; 
+    margin: 0 auto;
+}
+
+.context .t-title span
+{
+    font-size: 40px;
+    line-height: 70px;
+    margin-left:363px;
+}
+
+.context ul li
+{
+    margin: 30px;
+    float: left;
+}
+
+.context ul 
+{
+    margin-left: 10px;
+}
+
+.context ul li a
+{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration:none;
+    display:inline-block;
+    height:40px;
+    color:#333;
+    border-bottom: 1px solid #333；
+}
+
+
+.copy{
+   width:100%;
+   height:200px;
+  background:rgba(0,0,0,0.5);
+   margin-top:10px;
+}
+
+.copyright{
+   width:1000px;
+   margin:0 auto;
+   padding-top:20px;
+}
+
+.copyright li{
+    list-style-type:none;
+    float:left;
+    width:200px;
+    background: url(line.png) no-repeat right center;
+    text-align:center;
+    line-height:30px;
+    font-family:"Î¢ÈíÑÅºÚ";
+}
+
+.copyright a{
+   text-decoration:none;
+   color:#999;
+   font-size:18px;
+}
+
+.copyright li ul li a{
+  font-size:14px;
+}
+
+.copyright ul li ul li img {
+ width: 60%;
+ height: 110px;
+}
+

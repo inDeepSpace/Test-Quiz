@@ -1,0 +1,12 @@
+<Context>
+  <Resource name="justsql"
+  type="javax.sql.DataSource"
+  auth="Container"
+  driverClassName="com.mysql.jdbc.Driver" 
+  url="jdbc:mysql://localhost/myjsp" 
+  username="root" 
+  password="" 
+  maxActive="4" 
+  maxIdle="2"
+  maxWait="6000"/> 
+</Context>

@@ -1,0 +1,44 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	clear: both;
+	background:url(us2.jpg);
+	background-attachment:fixed;
+	background-reparat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+
+
+.us
+{
+	margin: 100px auto;
+	height: 30%;
+	width: 30%;
+	border-top:2px solid #eee;
+	border-bottom:2px solid #eee;
+	padding-bottom: 60px;
+	padding-top: 60px;
+	font-family: "Cambria";
+	font-size: 30px;
+	line-height: 50px;
+	color:#7A6158;
+	text-align: center;
+}
+
+.foot
+{
+	text-align: center;
+	margin: 0 auto;
+	height: 30%;
+	width: 30%;
+	font-family: "Blackadder ITC";
+	font-size: 35px;
+	line-height: 30px;
+	color:#333;
+	padding: 0 auto;
+}
+
+
+

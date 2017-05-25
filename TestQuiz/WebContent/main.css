@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+	background:url(bg1.jpg);
+	background-attachment:fixed;
+	background-reparat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+
+
+.head
+{
+    height: 70px;
+    background: #333; 
+}
+
+.head ul
+{
+    margin:0 40px auto auto;
+    List-style:none;
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.head ul li
+{
+    height: 70px;
+    display:inline-block;
+    Line-height:70px;
+    float:right;
+    padding:0 15px;
+    margin: 0;
+}
+
+.head ul li a:hover
+{
+    color: red;
+}
+
+.head ul li a
+{
+    Line-height:50px;
+    text-decoration:none;
+    display:inline-block;
+    height:50px;
+    color:#eee;
+}
+
+
+.head ul li.logo
+{
+    float:left;
+    color:white;
+    font-weight: 700;
+    font-size: 55px;
+    padding-left: 25px;
+    font-family: "华文仿宋";
+    width: 200px;
+}
+
+
+
+
+.context
+{
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    border-left: 1px solid rgba(0,0,0,0.5);
+    border-right: 1px solid rgba(0,0,0,0.5);
+}
+
+
